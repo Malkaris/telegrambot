@@ -35,7 +35,7 @@ class Clouds(BaseModel):
 class Sys(BaseModel):
     type: int
     id: int
-    message: float
+    message: float | None
     country: str
     sunrise: int
     sunset: int
