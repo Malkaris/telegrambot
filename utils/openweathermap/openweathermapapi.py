@@ -36,7 +36,7 @@ async def main():
 
     }
 
-    weather = OpenWeatherMapAPI(access_token='f6e859448949fdad5041bed22a465858')
+    weather = OpenWeatherMapAPI(access_token='')
     print(await weather.get_current_weather(params=params))
 
 
